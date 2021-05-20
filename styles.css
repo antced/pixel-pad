@@ -20,6 +20,7 @@ body {
   border-color: slategray;
   border-width: 2px;
   background-color: #10121a;
+  cursor: crosshair
 }
 
 /* DIV PIXELS */
