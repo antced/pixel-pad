@@ -1,7 +1,8 @@
 body {
-  background-color: lightgray;
+  background-color: #2F3240;
 }
 
+/* DIV CONTAINERS */
 .container {
   display: flex;
   justify-content: center;
@@ -16,55 +17,122 @@ body {
   width: 800px;
   height: 800px;
   border-style: solid;
-  border-color: gray;
+  border-color: slategray;
   border-width: 2px;
+  background-color: #10121a;
 }
 
+/* DIV PIXELS */
 .divs {
   width: 25px;
   height: 25px;
-  background-color: white;
+  background-color: #10121a;
 }
 .divs:hover {
-  background-color: lightgray;
+  background-color: slategray;
 }
 
+/* BUTTON CONTAINERS */
 .buttonContainer {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
+.toolsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* BUTTONS */
+
 .resetButton {
   border-style: solid;
   border-width: 2px;
-  border-radius: 10px;
-  border-color: cornflowerblue;
-  color: cornflowerblue;
-  background-color: aliceblue;
-  width: 200px;
-  height: 100px;
-  font-size: 2.5rem;
-  margin-left: 50px;
+  border-color: #761111;
+  color: #761111;
+  background-color: #d07373;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  font-family: monospace;
 }
 .resetButton:hover{
-  border-color: cornflowerblue;
-  color: aliceblue;
-  background-color: cornflowerblue;
+  border-color: #ffc3c3;
+  color: #ffc3c3;
+  background-color: #761111;
 }
 
 .colorButton {
   border-style: none;
-  border-radius: 50px;
+  border-color: gray;
   margin-right: 10px;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 .colorButton:hover {
   border-style: solid;
-  border-color: gray;
+  border-color: #b0bfce;
 }
 .colorButton:focus {
-  border-color: gray;
+  border-color: #b0bfce;
   border-style: solid;
+}
+
+.heightButton {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #10121a;
+  color: #10121a;
+  background-color: slategray;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  font-family: monospace;
+  margin-right: 20px;
+}
+.heightButton:hover {
+  border-style: solid;
+  border-color: #10121a;
+  color: #10121a;
+  background-color: #b0bfce;
+}
+
+.widthButton {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #10121a;
+  color: #10121a;
+  background-color: slategray;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  font-family: monospace;
+  margin-right: 20px;
+}
+.widthButton:hover {
+  border-style: solid;
+  border-color: #10121a;
+  color: #10121a;
+  background-color: #b0bfce;
+}
+
+.randomButton {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #10121a;
+  color: #10121a;
+  background-color: slategray;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  font-family: monospace;
+  margin-right: 20px;
+}
+.randomButton:hover {
+  border-style: solid;
+  border-color: #10121a;
+  color: #10121a;
+  background-color: #b0bfce;
 }
