@@ -1,3 +1,5 @@
-# etch-a-sketch
+# pixel-pad
 
-https://antced.github.io/etch-a-sketch/
+Click or drag to draw pixel art!
+
+https://antced.github.io/pixel-pad/
